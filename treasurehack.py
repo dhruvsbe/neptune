@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
 from PIL import Image 
 model = pickle.load(open("./otherFiles/water.pkl", "rb"))
-barwater = Image.open("./Water Classifier Model (1).png")
+barwater = Image.open("./pictures/titleImage.png")
 st.image(barwater)
 
 image = Image.open("./IndianW.jpeg") 

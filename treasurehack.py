@@ -23,8 +23,8 @@ def home():
     st.title("Home")  
     st.text("""Welcome to our machine learning water classification app. This system can 
 accurately classify water as drinkable or non-drinkable based on scientifically 
-measurable factors are inputted. Please use the menu bar above to navigate 
-to our model page and test it out for free. """)  
+measurable factors that are inputted. Please use the menu bar above to navigate 
+to our classifier page and test it out for free. """)  
     st.text("") 
     st.text("")
     st.image(imagetwo)

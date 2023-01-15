@@ -45,7 +45,7 @@ drinkable. """)
         0.01, 7.07, 14.16, 4.24, 14.02, 0.44, 0.04, 50.28, 0.008, 1.01 """)
 
         for feature in features:
-            val = st.text_input(f"{feature} levels") 
+            val = st.text_input(f"{feature} level:") 
             predict[feature] = val 
         
         

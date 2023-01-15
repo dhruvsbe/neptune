@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 import pickle 
 import pandas as pd
 from PIL import Image 
-model = pickle.load(open("./water.pkl", "rb"))
+model = pickle.load(open("./otherFiles/water.pkl", "rb"))
 barwater = Image.open("./Water Classifier Model (1).png")
 st.image(barwater)
 

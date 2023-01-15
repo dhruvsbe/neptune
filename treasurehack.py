@@ -7,8 +7,8 @@ model = pickle.load(open("./otherFiles/water.pkl", "rb"))
 barwater = Image.open("./pictures/titleImage.png")
 st.image(barwater)
 
-image = Image.open("./IndianW.jpeg") 
-imagetwo = Image.open("./developing-countries-clean-water.jpg")
+image = Image.open("./pictures/drinkingWater.jpeg") 
+imagetwo = Image.open("./pictures/cleanWater.jpg")
 
 
 
@@ -70,7 +70,7 @@ def data():
 the most important features in the dataset, we only used the top 10 most 
 important features and omitted the rest to increase the ease of use and 
 user accessibility.""")
-    water_data = pd.read_csv("./waterQuality1.csv") 
+    water_data = pd.read_csv("./otherFiles/waterQuality1.csv") 
     st.dataframe(water_data)
 
 

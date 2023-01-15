@@ -37,7 +37,7 @@ def network():
 dataset which can be seen on the next page. Based on the input of several 
 scientific measurements of water, this system is able to determine the 
 potability of water at a 97% accuracy. A model output of "[1.]" indicates 
-it is drinkable and a model output of "[0.]" indicates that the water is NOT 
+the water is drinkable and a model output of "[0.]" indicates that the water is NOT 
 drinkable. """)
         st.text(""" Example inputs that result in the prediction of drinkable water: 
         0.02, 6.78, 16.08, 0.35, 9.08, 0.34, 0.04, 37.75, 0.007, 1.65 """)
@@ -67,8 +67,8 @@ drinkable. """)
 def data():
     st.title("Our Data")  
     st.text("""Shown below is the data used to train the system. After using sklearn to discover 
-the most important features in the dataset, we only used the top 10 most 
-important features and omitted the rest to increase the ease of use and 
+the most impactful features in the dataset, we only used the top 10 most 
+impactful features and omitted the rest to increase the ease of use and 
 user accessibility.""")
     water_data = pd.read_csv("./otherFiles/waterQuality1.csv") 
     st.dataframe(water_data)

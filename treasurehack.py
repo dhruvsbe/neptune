@@ -82,7 +82,8 @@ Dhruv is a senior who recently committed to Duke and Nik is a junior hoping to
 commit to UVA. Both team members decided to create a water prediction app because
 this is a large problem for disadvantaged communities in third-world countries. 
 In the future, we hope to continue working on this project and potentially partner 
-with a non-profit organization to scale this functional solution to this important problem.""")
+with a non-profit organization to scale this functional solution to this important 
+problem.""")
     st.text("") 
     st.text("")
     st.image(image)
